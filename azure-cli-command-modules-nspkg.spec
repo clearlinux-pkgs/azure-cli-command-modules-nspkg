@@ -4,7 +4,7 @@
 #
 Name     : azure-cli-command-modules-nspkg
 Version  : 2.0.3
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/f9/e4/88d5ac135701d4debaad95f4e421392621152ef2491d3e2cd67ec98353d5/azure-cli-command-modules-nspkg-2.0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f9/e4/88d5ac135701d4debaad95f4e421392621152ef2491d3e2cd67ec98353d5/azure-cli-command-modules-nspkg-2.0.3.tar.gz
 Summary  : Microsoft Azure CLI Command Modules Namespace Package
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588883767
+export SOURCE_DATE_EPOCH=1607972616
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
