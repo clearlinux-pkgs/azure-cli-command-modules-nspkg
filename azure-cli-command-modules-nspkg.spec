@@ -4,7 +4,7 @@
 #
 Name     : azure-cli-command-modules-nspkg
 Version  : 2.0.3
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/f9/e4/88d5ac135701d4debaad95f4e421392621152ef2491d3e2cd67ec98353d5/azure-cli-command-modules-nspkg-2.0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f9/e4/88d5ac135701d4debaad95f4e421392621152ef2491d3e2cd67ec98353d5/azure-cli-command-modules-nspkg-2.0.3.tar.gz
 Summary  : Microsoft Azure CLI Command Modules Namespace Package
@@ -74,8 +74,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/cli/command_modules/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/cli/command_modules/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/cli/command_modules/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/cli/command_modules/__pycache__/__init__.cpython-3*.pyc
 
 %files
 %defattr(-,root,root,-)
